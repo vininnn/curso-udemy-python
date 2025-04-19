@@ -1,2 +1,2 @@
 # curso-udemy-python
- Curso de Python da Udemy
+ Curso de Python 3+ da Udemy
