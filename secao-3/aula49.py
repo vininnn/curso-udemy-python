@@ -1,17 +1,6 @@
-# Creat Read Uptade Delete (CRUD)
+# for in com listas
 
-lista = [1, 2, 3, 4]
-print(lista)
+lista = ['Vinicius', 'Eduardo', 'Gustavo', 1, 2, 3]
 
-lista[2] = 300
-print(lista)
-
-del lista[2]
-print(lista)
-print(lista[2])
-
-lista.append(5)
-lista.append(6)
-lista.pop()
-lista.append(7)
-print(lista)
+for nome in lista:
+    print(nome, type(nome))

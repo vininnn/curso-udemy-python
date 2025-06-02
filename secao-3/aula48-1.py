@@ -10,7 +10,7 @@ string = 'ABCDE'
 
 #         0    1        2       3   4
 #        -5   -4       -3      -2   -1
-lista = list[123, True, 'Vincius', 1.2, []] 
+lista = [123, True, 'Vincius', 1.2, []] 
 print(lista, type(lista))
 lista[2] = 'Vinin'
 print(lista[2])
