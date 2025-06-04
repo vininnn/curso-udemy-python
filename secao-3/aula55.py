@@ -1,5 +1,5 @@
 # Imprecisão de número flutuante
-# Double precision
+# Double precision floating-format IEEE 754
 import decimal
 
 a = 0.7
