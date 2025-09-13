@@ -1,7 +1,7 @@
 import sys
 
 from display import Display
-from buttons import Button
+from buttons import ButtonsGrid
 from info import Info
 from window import MainWindow
 from consts import WINDOW_ICON_PATH
@@ -23,16 +23,17 @@ if __name__ == '__main__':
     window.setWindowIcon(icon)
     app.setWindowIcon(icon)
 
+    # Info
     info = Info('teste')
-    window.addToVLayout(info)
+    window.addWidgetToVLayout(info)
 
     # Display
     display = Display()
-    window.addToVLayout(display)
+    window.addWidgetToVLayout(display)
 
-    # Botões
-    button = Button('Texto')
-    window.addToVLayout(button)
+    # Grid
+    buttons_grid = ButtonsGrid()
+    window.verticalLayout.addLayout(buttons_grid)
 
     # Execução
     if sys.platform.startswith('win'):
